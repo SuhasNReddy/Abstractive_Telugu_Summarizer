@@ -1,20 +1,36 @@
-Title: Abstractive Text summarization for Telugu language
+# Abstractive Text Summarization for Telugu Language
 
-Description: Abstractive Text summarization for Telugu language in NLP means it takes the input of long Telugu text and it summarizes the long text and give the summary in few lines
+## Description
 
-How to run:
+This project focuses on implementing abstractive text summarization for the Telugu language using Natural Language Processing (NLP). Abstractive summarization involves taking long Telugu text inputs and generating concise summaries in a few lines.
 
-Step-1:First We need to download the zip file
+## How to Run
 
-Step-2: Extract the file
+### Step-by-Step Instructions:
 
-Step-3:Install the sklearn using the command
+1. **Download and Extract the Project:**
+   - Download the project zip file and extract it to your desired location.
 
-pip install scikit-learn 
+2. **Install Required Libraries:**
+   - Ensure `scikit-learn` is installed by running the following command:
+     ```
+     pip install scikit-learn
+     ```
 
-Step-4:Then replace the path of stop_words_file in Text_summarization.py file with the absolute path of the stop_words_file that is located in your laptop
+3. **Configure Stop Words File:**
+   - Replace the path of `stop_words_file` in `Text_summarization.py` with the absolute path of the stop words file located on your system.
 
-Step-5:Also replace the path of source_lemma_preprocessing.py in replacing_original_lemma.py file that is in folder named lemmatization with the absolute path of source_lemma_preprocessing.py file that is located in your laptop
+4. **Configure Lemmatization File:**
+   - Replace the path of `source_lemma_preprocessing.py` in `replacing_original_lemma.py` located in the `lemmatization` folder with the absolute path of `source_lemma_preprocessing.py` on your system.
 
-step-6: Now run the command python run.py which runs the website and there we can add input and we will see the output in the webpage
- 
+5. **Run the Website:**
+   - Execute the following command to start the website:
+     ```
+     python run.py
+     ```
+   - This command will launch the website where you can input Telugu text and view the generated summaries on the webpage.
+
+## Additional Notes
+
+- Ensure all dependencies are installed and paths are correctly configured before running the application.
+- This project uses abstractive summarization techniques tailored for the Telugu language, leveraging NLP libraries and preprocessing scripts.
